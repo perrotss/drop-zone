@@ -1,3 +1,16 @@
 @import url("pages/home.css");
 @import url("components/dropzone.css");
 @import url("components/leezy.css");
+@import url("components/timer.css");
+
+@media (max-width: 414px) {
+
+    .background-img {
+        height: 118vh;
+        top: -32px;
+        }
+
+    .leezy p {
+        font-size: 24px;
+    }
+}

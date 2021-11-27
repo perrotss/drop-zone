@@ -17,21 +17,12 @@ body {
 
 h1 {
     font-family: Rozha One;
-    line-height: 40px;
-    color: white;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
-    letter-spacing: 0.15em;
-}
-
-p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
     line-height: 40px;
-    text-align: center;
+    text-align: right;
     letter-spacing: 0.15em;
-    text-transform: uppercase
+    text-transform: uppercase;
+    color: white;
 }
