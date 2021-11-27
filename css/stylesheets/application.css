@@ -3,7 +3,7 @@
 @import url("components/leezy.css");
 @import url("components/timer.css");
 
-@media (max-width: 414px) {
+/* @media (max-width: 414px) {
 
     .background-img {
         height: 118vh;
@@ -13,4 +13,4 @@
     .leezy p {
         font-size: 24px;
     }
-}
+} */
