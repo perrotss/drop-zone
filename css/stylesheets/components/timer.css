@@ -1,5 +1,41 @@
-.timer-container {
+.content-container {
     display: flex;
     justify-content: right;
-    
+    width: 90%;
 }
+
+.timer-container{
+    text-align: center;
+    margin-top: 180px;
+    width: 700px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.timer-num {
+    display: flex;
+}
+
+.days,.days1,.hours,.hours1,.minutes,.minutes1,.seconds,.seconds1 {
+    background: black;
+    width: 58px;
+    height: 73px;
+    margin: 0 6px;
+}
+
+.timer p {
+        font-family: Roboto;
+        font-weight: 900;
+        font-size: 24px;
+        letter-spacing: 0.15em;
+}
+
+.until-drop p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}   
