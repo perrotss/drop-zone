@@ -13,6 +13,7 @@
 .timer {
     display: flex;
     justify-content: space-evenly;
+    padding: 0px 16px;
 }
 
 .timer-num {
@@ -20,28 +21,17 @@
 }
 
 .days0,.days1,.hours0,.hours1,.minutes0,.minutes1,.seconds0,.seconds1 {
-    background: black;
-    color: white;
-    font-family: Rozha One;
-    font-size: 48px;
     width: 58px;
     height: 72px;
-    margin: 0 6px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
+    margin: 0 8px;
 }
 
 .timer p {
-    font-family: Roboto;
     font-weight: 900;
     font-size: 24px;
     letter-spacing: 0.15em;
 }
 
 .until-drop p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
-}   
+}

@@ -1,7 +1,7 @@
 // Option B
 // Creating a Timer class for a countdown object, using Timer class for better encupsaltion of multiple related methods that could be added in future.
 class Timer {
-    endDate = new Date("Jan 01, 2022 00:00:00").getTime();
+    endDate = new Date("Dec 31, 2021 00:00:00").getTime();
 
     // When object gets instantiated (start() will only start if its off/false)
     // constructor(){

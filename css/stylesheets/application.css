@@ -21,7 +21,7 @@
 
     .timer {
         justify-content: space-evenly;
-        margin: 0 26px -8px;
+        margin: 0px 8px;
     }
 
     .timer p {
@@ -49,9 +49,5 @@
         height: 36px;
         font-size: 24px;
         margin: 0px 3px 8px;
-    }
-    
-    .container-days,.container-hours,.container-minutes,.container-seconds {
-        
     }
 }   

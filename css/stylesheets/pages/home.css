@@ -23,6 +23,21 @@ h1 {
     line-height: 40px;
     text-align: right;
     letter-spacing: 0.15em;
-    text-transform: uppercase;
     color: white;
+}
+
+h3 {
+    font-family: Rozha One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    background: black;
+    color: white;
+    font-size: 48px;
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
 }
