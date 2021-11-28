@@ -22,16 +22,21 @@
 .days0,.days1,.hours0,.hours1,.minutes0,.minutes1,.seconds0,.seconds1 {
     background: black;
     color: white;
+    font-family: Rozha One;
+    font-size: 48px;
     width: 58px;
-    height: 73px;
+    height: 72px;
     margin: 0 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
 }
 
 .timer p {
-        font-family: Roboto;
-        font-weight: 900;
-        font-size: 24px;
-        letter-spacing: 0.15em;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 0.15em;
 }
 
 .until-drop p {

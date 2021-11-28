@@ -3,32 +3,55 @@
 @import url("components/leezy.css");
 @import url("components/timer.css");
 
-@media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 667px) 
-    and (-webkit-min-device-pixel-ratio: 2) { 
-        .leezy p {
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: 900;
-            font-size: 24px;
+@media screen and (max-width: 667px) {
+
+    .background-img {
+        height: 120vh;
+        top: -32px;
     }
-}
 
-/* Portrait */
-@media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 667px) 
-    and (-webkit-min-device-pixel-ratio: 2)
-    and (orientation: portrait) { 
+    .content-container {
+        display:flex;
+        width: 100%
+    }
 
-}
+    .timer-container {
+        margin: 327px 0px 0px 0px;
+    }
 
-/* Landscape */
-@media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 667px) 
-    and (-webkit-min-device-pixel-ratio: 2)
-    and (orientation: landscape) { 
+    .timer {
+        justify-content: space-evenly;
+        margin: 0 26px -8px;
+    }
 
-}
+    .timer p {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .until-dropzone p {
+        font-size: 18px;
+        line-height: 40px;
+        margin-top: -4px;
+    }
+    
+    .leezy p {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .days0,.days1,.hours0,.hours1,.minutes0,.minutes1,.seconds0,.seconds1 {
+        width: 29px;
+        height: 36px;
+        font-size: 24px;
+        margin: 0px 3px 8px;
+    }
+    
+    .container-days,.container-hours,.container-minutes,.container-seconds {
+        
+    }
+}   
