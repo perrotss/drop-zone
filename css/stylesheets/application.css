@@ -3,14 +3,32 @@
 @import url("components/leezy.css");
 @import url("components/timer.css");
 
-/* @media (max-width: 414px) {
-
-    .background-img {
-        height: 118vh;
-        top: -32px;
-        }
-
-    .leezy p {
-        font-size: 24px;
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+        .leezy p {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
     }
-} */
+}
+
+/* Portrait */
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) { 
+
+}

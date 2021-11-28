@@ -19,8 +19,9 @@
     display: flex;
 }
 
-.days,.days1,.hours,.hours1,.minutes,.minutes1,.seconds,.seconds1 {
+.days0,.days1,.hours0,.hours1,.minutes0,.minutes1,.seconds0,.seconds1 {
     background: black;
+    color: white;
     width: 58px;
     height: 73px;
     margin: 0 6px;
